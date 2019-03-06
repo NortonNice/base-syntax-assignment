@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import UserInput from './UserInput/UserInput';
 import UserOutput from './UserOutput/UserOutput';
+import UserOutputStatic from './UserOutputStatic/UserOutputStatic';
 
 class App extends Component {
   state = {
-    username: 'Nasty Nate'
+    username: 'Julius Caesar'
   }
 
   usernameChangedHandler = (event) => {
@@ -19,7 +20,7 @@ class App extends Component {
       />
       <UserOutput userName={this.state.username} />
       <UserOutput userName={this.state.username} />
-      <UserOutput userName="Nate" />
+      <UserOutputStatic userName="Nate" />
       </div>
     );
   }

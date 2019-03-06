@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: #6B84A3;
+}
+
+.UserOutput {
+    width: 50%;
+    margin: 16px auto 16px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #f9bd9c;
+    background-color: #c9d4e2;
+    color: black;
+}

@@ -1,13 +1,13 @@
 import React from 'react';
-import './UserOutput.css'
+import '../UserOutput/UserOutput.css'
 
-const userOutput = (props) => {
+const userOutputStatic = (props) => {
     return (
         <div className='UserOutput'>
             <p>Username: { props.userName }</p>
-            <p>I'll be overwritten. Thanks React!</p>
+            <p>I can't be overwritten!</p>
         </div>
     )
 };
 
-export default userOutput;
+export default userOutputStatic;
